@@ -5,16 +5,12 @@ import Empleados from "./pages/Empleados/Empleados";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+import "./App.css";
+
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <h1>Mi App con Wouter</h1>
-      <nav>
-        <a href="/">Inicio</a>
-        <a href="/empleados">Empleados</a>
-        <a href="/about">Acerca de</a>
-      </nav>
 
       <Switch>
         <Route path="/" component={Homepage} />
