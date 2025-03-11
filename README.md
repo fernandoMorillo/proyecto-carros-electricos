@@ -1,12 +1,17 @@
 # React + Vite
+# Autores: Fernando Morillo y William Arias.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Planteamiento
+La empresa XYZ está solicitando una aplicación web que permita mantener el estado de sus carros eléctricos, 
+la empresa desea poder asignar los carros eléctricos a empleados, 
+de tal manera que cada vez que un empleado desee tomar un carro este debe llenar un formulario del estado actual
+ en el cual la persona encuentra el carro eléctrico,
+ dentro de ese formulario debe indicar estado de las llantas (Correcto o incorrecto), 
+estado del chasis (Correcto o incorrecto), estado de las puertas (Correcto o incorrecto) y unas observaciones.
+ Cada vez que la persona desee tomar o entregar el carro debe rellenar esos datos para tener actualizado el estado
+ de cada uno de los carros eléctricos, adicionalmente cada vez que la persona quiera asignarse el carro deberá leer
+ un código QR que permita seleccionar el carro a tomar.
+ Cada vez que una persona desee tomar un carro leerá el código QR,
+ si el carro ya lo tiene asignado la persona entonces es porque dejara el carro, 
+si no es porque lo tomara. La aplicación debe ser realizada en flutter,
+ los datos pueden ser mockeados en wiremock.
